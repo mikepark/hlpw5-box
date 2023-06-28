@@ -76,9 +76,19 @@ $!GlobalLinePlot
     }
   Legend
     {
+    Show = Yes
+    TextShape
+      {
+      Height = 2.5
+      }
+    Box
+      {
+      BoxType = None
+      }
     XYPos
       {
-      X = 95
+      X = 100
+      Y = 100
       }
     }
 $!LineMap  [1]
@@ -88,6 +98,7 @@ $!LineMap  [1]
     Zone = 1
     XAxisVar = 33
     YAxisVar = 2
+    ShowInLegend = Never
     }
   Lines
     {
@@ -116,6 +127,7 @@ $!LineMap  [2]
     Zone = 2
     XAxisVar = 33
     YAxisVar = 2
+    ShowInLegend = Never
     }
   Lines
     {
@@ -144,6 +156,7 @@ $!LineMap  [3]
     Zone = 3
     XAxisVar = 33
     YAxisVar = 2
+    ShowInLegend = Never
     }
   Lines
     {
@@ -172,6 +185,7 @@ $!LineMap  [4]
     Zone = 4
     XAxisVar = 33
     YAxisVar = 2
+    ShowInLegend = Never
     }
   Lines
     {
@@ -200,6 +214,7 @@ $!LineMap  [5]
     Zone = 5
     XAxisVar = 33
     YAxisVar = 2
+    ShowInLegend = Never
     }
   Lines
     {
@@ -228,6 +243,7 @@ $!LineMap  [6]
     Zone = 6
     XAxisVar = 33
     YAxisVar = 2
+    ShowInLegend = Never
     }
   Lines
     {
@@ -256,6 +272,7 @@ $!LineMap  [7]
     Zone = 7
     XAxisVar = 33
     YAxisVar = 2
+    ShowInLegend = Never
     }
   Lines
     {
@@ -284,6 +301,7 @@ $!LineMap  [8]
     Zone = 8
     XAxisVar = 33
     YAxisVar = 2
+    ShowInLegend = Never
     }
   Lines
     {
@@ -312,6 +330,7 @@ $!LineMap  [9]
     Zone = 9
     XAxisVar = 33
     YAxisVar = 2
+    ShowInLegend = Never
     }
   Lines
     {
@@ -340,6 +359,7 @@ $!LineMap  [10]
     Zone = 10
     XAxisVar = 33
     YAxisVar = 2
+    ShowInLegend = Never
     }
   Lines
     {
@@ -368,6 +388,7 @@ $!LineMap  [11]
     Zone = 11
     XAxisVar = 33
     YAxisVar = 2
+    ShowInLegend = Never
     }
   Lines
     {
@@ -396,6 +417,7 @@ $!LineMap  [12]
     Zone = 12
     XAxisVar = 33
     YAxisVar = 2
+    ShowInLegend = Never
     }
   Lines
     {
@@ -424,6 +446,7 @@ $!LineMap  [13]
     Zone = 13
     XAxisVar = 33
     YAxisVar = 2
+    ShowInLegend = Never
     }
   Lines
     {
@@ -452,6 +475,7 @@ $!LineMap  [14]
     Zone = 14
     XAxisVar = 33
     YAxisVar = 2
+    ShowInLegend = Never
     }
   Lines
     {
@@ -480,6 +504,7 @@ $!LineMap  [15]
     Zone = 15
     XAxisVar = 33
     YAxisVar = 2
+    ShowInLegend = Never
     }
   Lines
     {
@@ -508,6 +533,7 @@ $!LineMap  [16]
     Zone = 16
     XAxisVar = 33
     YAxisVar = 2
+    ShowInLegend = Never
     }
   Lines
     {
@@ -536,6 +562,7 @@ $!LineMap  [17]
     Zone = 17
     XAxisVar = 33
     YAxisVar = 2
+    ShowInLegend = Never
     }
   Lines
     {
@@ -564,6 +591,7 @@ $!LineMap  [18]
     Zone = 18
     XAxisVar = 33
     YAxisVar = 2
+    ShowInLegend = Never
     }
   Lines
     {
@@ -592,6 +620,7 @@ $!LineMap  [19]
     Zone = 19
     XAxisVar = 33
     YAxisVar = 2
+    ShowInLegend = Never
     }
   Lines
     {
@@ -620,6 +649,7 @@ $!LineMap  [20]
     Zone = 20
     XAxisVar = 33
     YAxisVar = 2
+    ShowInLegend = Never
     }
   Lines
     {
@@ -648,6 +678,7 @@ $!LineMap  [21]
     Zone = 21
     XAxisVar = 33
     YAxisVar = 2
+    ShowInLegend = Never
     }
   Lines
     {
@@ -676,6 +707,7 @@ $!LineMap  [22]
     Zone = 22
     XAxisVar = 33
     YAxisVar = 2
+    ShowInLegend = Never
     }
   Lines
     {
@@ -704,6 +736,7 @@ $!LineMap  [23]
     Zone = 23
     XAxisVar = 33
     YAxisVar = 2
+    ShowInLegend = Never
     }
   Lines
     {
@@ -732,6 +765,7 @@ $!LineMap  [24]
     Zone = 24
     XAxisVar = 33
     YAxisVar = 2
+    ShowInLegend = Never
     }
   Lines
     {
@@ -760,6 +794,7 @@ $!LineMap  [25]
     Zone = 25
     XAxisVar = 33
     YAxisVar = 2
+    ShowInLegend = Never
     }
   Lines
     {
@@ -788,6 +823,7 @@ $!LineMap  [26]
     Zone = 26
     XAxisVar = 33
     YAxisVar = 2
+    ShowInLegend = Never
     }
   Lines
     {
@@ -816,6 +852,7 @@ $!LineMap  [27]
     Zone = 27
     XAxisVar = 33
     YAxisVar = 2
+    ShowInLegend = Never
     }
   Lines
     {
@@ -844,6 +881,7 @@ $!LineMap  [28]
     Zone = 28
     XAxisVar = 33
     YAxisVar = 2
+    ShowInLegend = Never
     }
   Lines
     {
@@ -872,6 +910,7 @@ $!LineMap  [29]
     Zone = 29
     XAxisVar = 33
     YAxisVar = 2
+    ShowInLegend = Never
     }
   Lines
     {
@@ -900,6 +939,7 @@ $!LineMap  [30]
     Zone = 30
     XAxisVar = 33
     YAxisVar = 2
+    ShowInLegend = Never
     }
   Lines
     {
@@ -928,6 +968,7 @@ $!LineMap  [31]
     Zone = 31
     XAxisVar = 33
     YAxisVar = 2
+    ShowInLegend = Never
     }
   Lines
     {
@@ -956,6 +997,7 @@ $!LineMap  [32]
     Zone = 32
     XAxisVar = 33
     YAxisVar = 2
+    ShowInLegend = Never
     }
   Lines
     {
@@ -984,6 +1026,7 @@ $!LineMap  [33]
     Zone = 33
     XAxisVar = 33
     YAxisVar = 2
+    ShowInLegend = Never
     }
   Lines
     {
@@ -1012,6 +1055,7 @@ $!LineMap  [34]
     Zone = 34
     XAxisVar = 33
     YAxisVar = 2
+    ShowInLegend = Never
     }
   Lines
     {
@@ -1040,6 +1084,7 @@ $!LineMap  [35]
     Zone = 35
     XAxisVar = 33
     YAxisVar = 2
+    ShowInLegend = Never
     }
   Lines
     {
@@ -1068,6 +1113,7 @@ $!LineMap  [36]
     Zone = 36
     XAxisVar = 33
     YAxisVar = 2
+    ShowInLegend = Never
     }
   Lines
     {
@@ -1096,6 +1142,7 @@ $!LineMap  [37]
     Zone = 37
     XAxisVar = 33
     YAxisVar = 2
+    ShowInLegend = Never
     }
   Lines
     {
@@ -1124,6 +1171,7 @@ $!LineMap  [38]
     Zone = 38
     XAxisVar = 33
     YAxisVar = 2
+    ShowInLegend = Never
     }
   Lines
     {
@@ -1152,6 +1200,7 @@ $!LineMap  [39]
     Zone = 39
     XAxisVar = 33
     YAxisVar = 2
+    ShowInLegend = Never
     }
   Lines
     {
@@ -1180,6 +1229,7 @@ $!LineMap  [40]
     Zone = 40
     XAxisVar = 33
     YAxisVar = 2
+    ShowInLegend = Never
     }
   Lines
     {
@@ -1208,6 +1258,7 @@ $!LineMap  [41]
     Zone = 41
     XAxisVar = 33
     YAxisVar = 2
+    ShowInLegend = Never
     }
   Lines
     {
@@ -1236,6 +1287,7 @@ $!LineMap  [42]
     Zone = 42
     XAxisVar = 33
     YAxisVar = 2
+    ShowInLegend = Never
     }
   Lines
     {
@@ -1264,6 +1316,7 @@ $!LineMap  [43]
     Zone = 43
     XAxisVar = 33
     YAxisVar = 2
+    ShowInLegend = Never
     }
   Lines
     {
@@ -1292,6 +1345,7 @@ $!LineMap  [44]
     Zone = 44
     XAxisVar = 33
     YAxisVar = 2
+    ShowInLegend = Never
     }
   Lines
     {
@@ -1320,6 +1374,7 @@ $!LineMap  [45]
     Zone = 45
     XAxisVar = 33
     YAxisVar = 2
+    ShowInLegend = Never
     }
   Lines
     {
@@ -1348,6 +1403,7 @@ $!LineMap  [46]
     Zone = 46
     XAxisVar = 33
     YAxisVar = 2
+    ShowInLegend = Never
     }
   Lines
     {
@@ -1376,6 +1432,7 @@ $!LineMap  [47]
     Zone = 47
     XAxisVar = 33
     YAxisVar = 2
+    ShowInLegend = Never
     }
   Lines
     {
@@ -1404,6 +1461,7 @@ $!LineMap  [48]
     Zone = 48
     XAxisVar = 33
     YAxisVar = 2
+    ShowInLegend = Never
     }
   Lines
     {
@@ -1432,6 +1490,7 @@ $!LineMap  [49]
     Zone = 49
     XAxisVar = 33
     YAxisVar = 2
+    ShowInLegend = Never
     }
   Lines
     {
