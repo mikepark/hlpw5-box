@@ -21,7 +21,7 @@ echo ${lay} ${png}
 mcr=lay2png.mcr
 
 cat > ${mcr} <<EOF
-\#!MC 1410
+#!MC 1410
 \$!OpenLayout  '${lay}'
 \$!FrameLayout ShowBorder = No
 \$!ExportSetup ImageWidth = 1600
@@ -31,4 +31,9 @@ cat > ${mcr} <<EOF
   ExportRegion = AllFrames
 EOF
 
-tecplot ${mcr} && rm ${mcr}
+/Applications/Tecplot\ 360\ EX\ 2022\ R2/Tecplot\ 360\ EX\ 2022\ R2.app/Contents/MacOS/Tecplot\ 360\ EX\ 2022\ R2 \
+  -b ${mcr}
+
+rm ${mcr} batch.log
+
+
