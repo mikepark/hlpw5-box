@@ -88,8 +88,9 @@ $!GlobalLinePlot
     XYPos
       {
       X = 100
-      Y = 100
+      Y = 8
       }
+    AnchorAlignment = BottomRight
     }
 $!LineMap  [1]
   Name = '&ZN&'
