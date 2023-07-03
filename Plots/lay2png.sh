@@ -14,28 +14,18 @@ then
 fi
 
 lay=$1
-mcr=${lay%.lay}.mcr
 png=${lay%.lay}.png
 
-echo ${lay} ${mcr} ${png}
-
-exit
+echo ${lay} ${png}
 
 cat > lay2png.mcr <<EOF
-#!MC 1410
-$!Pick SetMouseMode
-  MouseMode = Select
-$!Page Name = 'Untitled'
-$!PageControl Create
-$!Pick SetMouseMode
-  MouseMode = Select
-$!OpenLayout  "/Users/mikepark/hlpw/box/Plots/adapt-rans-cd-rqcr.lay"
-$!FrameLayout ShowBorder = Yes
-$!FrameLayout ShowBorder = No
-$!PrintSetup Palette = Color
-$!ExportSetup ImageWidth = 1600
-$!ExportSetup UseSuperSampleAntiAliasing = Yes
-$!ExportSetup ExportFName = '/Users/mikepark/hlpw/box/Plots/untitled.png'
-$!Export 
+\#!MC 1410
+\$!OpenLayout  '${lay}'
+\$!FrameLayout ShowBorder = No
+\$!ExportSetup ImageWidth = 1600
+\$!ExportSetup UseSuperSampleAntiAliasing = Yes
+\$!ExportSetup ExportFName = '${png}'
+\$!Export 
   ExportRegion = AllFrames
 EOF
+
