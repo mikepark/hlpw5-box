@@ -14,8 +14,10 @@ then
 fi
 
 lay=$1
+mcr=${lay%.lay}.mcr
+png=${lay%.lay}.png
 
-echo ${lay}
+echo ${lay} ${mcr} ${png}
 
 exit
 
