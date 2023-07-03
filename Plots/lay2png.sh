@@ -18,7 +18,9 @@ png=${lay%.lay}.png
 
 echo ${lay} ${png}
 
-cat > lay2png.mcr <<EOF
+mcr=lay2png.mcr
+
+cat > ${mcr} <<EOF
 \#!MC 1410
 \$!OpenLayout  '${lay}'
 \$!FrameLayout ShowBorder = No
@@ -29,3 +31,4 @@ cat > lay2png.mcr <<EOF
   ExportRegion = AllFrames
 EOF
 
+tecplot ${mcr} && rm ${mcr}
