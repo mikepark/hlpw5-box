@@ -13,6 +13,15 @@ then
   exit
 fi
 
+if [ $# -gt 1 ]
+then
+  for lay in "$@"
+  do
+    ${0} ${lay}
+  done
+  exit
+fi
+
 lay=$1
 png=${lay%.lay}.png
 
