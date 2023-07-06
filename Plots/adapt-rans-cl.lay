@@ -76,6 +76,7 @@ $!GlobalLinePlot
     }
   Legend
     {
+    Show = Yes
     TextShape
       {
       Height = 2.5
@@ -83,11 +84,12 @@ $!GlobalLinePlot
     Box
       {
       BoxType = None
+      Margin = 0
       }
     XYPos
       {
       X = 100
-      Y = 100
+      Y = 96
       }
     }
 $!LineMap  [1]

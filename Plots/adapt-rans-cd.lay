@@ -76,18 +76,21 @@ $!GlobalLinePlot
     }
   Legend
     {
+    Show = Yes
     TextShape
       {
-      Height = 2.5
+      Height = 2
       }
     Box
       {
-      BoxType = None
+      BoxType = Filled
+      Margin = 0
+      Color = White
       }
     XYPos
       {
       X = 100
-      Y = 8
+      Y = 14
       }
     AnchorAlignment = BottomRight
     }
