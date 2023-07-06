@@ -1,5 +1,5 @@
 #!MC 1410
-$!VarSet |LFDSFN1| = '"../RANS/R-008/R-008.5_Case1_Langlois_Dragon_SAnegRQCR_Pointwise_1R01/008_case1_gridconvergence_FM.dat" "../RANS/R-008/R-008.1_Case1_Langlois_Dragon_SAnegRQCR_MBGRID/008_case1_gridconvergence_FM.dat" "../RANS/R-008/R-008.3_Case1_Langlois_Dragon_komega88_Pointwise_1R01/008_case1_gridconvergence_FM.dat" "../RANS/R-008/R-008.2_Case1_Langlois_Dragon_SAnegRQCR_BBDPW/008_case1_gridconvergence_FM.dat" "../RANS/R-008/R-008.4_Case1_Langlois_Dragon_SAnegRQCR_ANSA/008_case1_gridconvergence_FM.dat" "../RANS/R-001/R-001.3_Case1_Liu_FUN3D_SA-neg-R-QCR2000_1.R.01grid/R-001.3_case1_gridconvergence_FM.dat" "../RANS/R-001/R-001.2_Case1_Liu_FUN3D_SA-neg-R-QCR2000_1.R.03grid/R-001.2_case1_gridconvergence_FM.dat" "../RANS/R-001/R-001.1_Case1_Liu_FUN3D_SA-neg_1.R.01grid/R-001.1_case1_gridconvergence_FM.dat" "../RANS/R-006/R-006.1_Case1_Hanke_SimcenterSTAR-CCM+_SST_QCR_a1eq1_BESTPRACTICE/R-006.1_case1_gridconvergence_FM.dat" "../RANS/R-006/R-006.2_Case1_Hanke_SimcenterSTAR-CCM+_SST_QCR_a1eq1_CommitteeGrid/R-006.2_case1_gridconvergence_FM.dat" "../RANS/R-006/R-006.3_Case1_Hanke_SimcenterSTAR-CCM+_SA-QCR2000-R/R-006.3_case1_gridconvergence_FM.dat" "../RANS/R-006/R-006.4_Case1_Hanke_SimcenterSTAR-CCM+_SA-R/R-006.4_case1_gridconvergence_FM.dat" "../RANS/R-006/R-006.5_Case1_Hanke_SimcenterSTAR-CCM+_SA-QCR2000-R_CommitteeGrid/R-006.5_case1_gridconvergence_FM.dat" "../RANS/R-007/R-007_Case1_Balakrishnan_HiFUN_Standard-SA-noft2-1_BESTPRACTICE/R-007_case1_gridconvergence_FM.dat" "../RANS/R-009/R-009.1_Case1_Yasuda_Cflow_SA-neg-QCR200-R-Crot1_MeshSeries1.R.01-1_BESTPRACTICE/R-009.1_case1_gridconvergence_FM.dat" "../RANS/R-009/R-009.2_Case1_Yasuda_Cflow_SA-neg-QCR200-R-Crot1_Cflow.05/R-009.2_case1_gridconvergence_FM.dat" "../RANS/R-013/R-013.4_Case1_Laflin_FUN3D_SA-neg_Mesh-Series-1.R.05/R-013_case1_gridconvergence_FM.dat" "../RANS/R-013/R-013.1_Case1_Laflin_FUN3D_SA-neg-QCR2000-Crot1_Mesh-Series-1.R.01/R-013_case1_gridconvergence_FM.dat" "../RANS/R-013/R-013.2_Case1_Laflin_FUN3D_SA-neg-QCR2000-Crot1_Mesh-Series-1.R.05/R-013_case1_gridconvergence_FM.dat" "../RANS/R-013/R-013.3_Case1_Laflin_FUN3D_SA-neg_Mesh-Series-1.R.01/R-013_case1_gridconvergence_FM.dat" "../RANS/R-014/R-014.1_Case1_Darbyshire_zCFD_RANS-SSTV-2003_BESTPRACTICE/R-014_case1_gridconvergence_FM.dat" "../RANS/R-014/R-014.2_Case1_Darbyshire_zCFD_RANS-SANEG_QCR2000_R/R-014_case1_gridconvergence_FM.dat" "../RANS/R-015/R-015.4_Case1_Murayama_TAS_SA_AI.1.R.04_v3/R-015.4_case1_gridconvergence_FM.dat" "../RANS/R-015/R-015.1_Case1_Murayama_TAS_SA-noft2-R_Crot1_PW.1.R.01_v3/R-015.1_case1_gridconvergence_FM.dat" "../RANS/R-015/R-015.2_Case1_Murayama_TAS_SA_PW.1.R.01_v3/R-015.2_case1_gridconvergence_FM.dat" "../RANS/R-015/R-015.3_Case1_Murayama_TAS_SA_HM.1.R.05_v3/R-015.3_case1_gridconvergence_FM.dat" "../RANS/R-005/R-005.2_Case1_Rausa_SU2_saneg-qcr-R_Roe2ndOrderColdStart/R-005.2_case1_gridconvergence_FM.dat" "../RANS/R-005/R-005.1_Case1_Rausa_SU2_saneg-qcr-R_Roe2ndOrderHotStart/R-005.1_case1_gridconvergence_FM.dat" "../RANS/R-002/R-002.3_Case1_Ahrabi_FElight_SA-neg_Grid-1R05/R-002.3_case1_gridconvergence_FM.dat" "../RANS/R-002/R-002.1_Case1_Ahrabi_FElight_SA-neg_Grid-1R01/R-002.1_case1_gridconvergence_FM.dat" "../RANS/R-003/R-003_Case1_Hunter_USM3D-ME/R-003.1_Case1_Hunter_USM3D-ME_SA-neg/R-003.1_case1_gridconvergence_FM.dat" "../RANS/R-003/R-003_Case1_Hunter_USM3D-ME/R-003.3_Case1_Hunter_USM3D-ME_SA-neg/R-003.3_case1_gridconvergence_FM.dat" "../RANS/R-003/R-003_Case1_Hunter_USM3D-ME/R-003.5_Case1_Hunter_USM3D-ME_SA-neg/R-003.5_case1_gridconvergence_FM.dat" "../RANS/R-003/R-003_Case1_Hunter_USM3D-ME/R-003.2_Case1_Hunter_USM3D-ME_SA-neg-qcr2000-r/R-003.2_case1_gridconvergence_FM.dat" "../RANS/R-003/R-003_Case1_Hunter_USM3D-ME/R-003.4_Case1_Hunter_USM3D-ME_SA-neg-qcr2000-r/R-003.4_case1_gridconvergence_FM.dat" "../RANS/R-004/R-004.3_Case1_Sereez_Fluent_IncompressibleSA/R-004.3_case1_gridconvergence_FM.dat" "../RANS/R-004/R-004.1_Case1_Sereez_OpenFOAM_IncompressibleSA/R-004.1_case1_gridconvergence_FM.dat" "../RANS/R-004/R-004.2_Case1_Sereez_OpenFOAM_CompressibleSA/R-004.2_case1_gridconvergence_FM.dat" "../RANS/R-017/R-017.4_Case1_Zore_Fluent_POINTWISE-1.R.01_SA-QCR2000/R-017_case1_gridconvergence_FM.dat" "../RANS/R-017/R-017.3_Case1_Zore_Fluent_ICEMCFD-1.R.04_WJ-BSL-EARSM/R-017_case1_gridconvergence_FM.dat" "../RANS/R-017/R-017.2_Case1_Zore_Fluent_ICEMCFD-1.R.04_SST2003-QCR2000/R-017_case1_gridconvergence_FM.dat" "../RANS/R-017/R-017.1_Case1_Zore_Fluent_ICEMCFD-1.R.04_SA-QCR2000_BESTPRACTICE/R-017_case1_gridconvergence_FM.dat" "../RANS/R-010/R-010.2_Case1_Robles_kw98_Pointwise-MixedElementUnstructured/R-010.2_case1_gridconvergence_FM.dat" "../RANS/R-010/R-010.1_Case1_Robles_SA_Pointwise-MixedElementUnstructured/R-010.1_case1_gridconvergence_FM.dat" "../RANS/R-019/R-019_Case1_LeGouez_SYNAPSIS_3GQ2k3RANS_BESTPRACTICE/R-019_case1_gridconvergence_FM.dat" "../RANS/R-018/R-018_Case1_Lofthouse_Kestrel_SAQCR/R-018_case1_gridconvergence_FM.dat" "../RANS/R-011/R-011_Case1_Renaud_elsA_SA+QCR2000+R_BESTPRACTICE/R-011_case1_gridconvergence_FM.dat" "../RANS/R-016/R-016.2_Case1_Ciloni_CFD++_SA______________steadystate_pitchsweep_warmstart_with_1.R.01_meshes/R-016.2_case1_gridconvergence_FM.dat" "../RANS/R-016/R-016.1_Case1_Ciloni_CFD++_SA-QCR(2013)-RC_steadystate_pitchsweep_warmstart_with_1.R.01_meshes_BESTPRACTICE/R-016.1_case1_gridconvergence_FM.dat" "../ADAPT/W-001/W-001_Case1_Jansson_AdaptiveEuler_submission02/W-001_case1_gridconvergence_FM.dat" "../ADAPT/A-003/A-003.1_notofficiallysubmitted_SAneg/A-003.1_case1_gridconvergence_FM.dat" "../ADAPT/A-003/A-003.2_notofficiallysubmitted_SAneg-QCR-R/A-003.2_case1_gridconvergence_FM.dat" "../ADAPT/A-002/A-002_Case1_Sahin_HEMLAB+pyAMG_SA-neg-noft2_v1/A-002_case1_gridconvergence_FM.dat"'
+$!VarSet |LFDSFN1| = '"../RANS/R-008/R-008.5_Case1_Langlois_Dragon_SAnegRQCR_Pointwise_1R01/008_case1_gridconvergence_FM.dat" "../RANS/R-008/R-008.1_Case1_Langlois_Dragon_SAnegRQCR_MBGRID/008_case1_gridconvergence_FM.dat" "../RANS/R-008/R-008.3_Case1_Langlois_Dragon_komega88_Pointwise_1R01/008_case1_gridconvergence_FM.dat" "../RANS/R-008/R-008.2_Case1_Langlois_Dragon_SAnegRQCR_BBDPW/008_case1_gridconvergence_FM.dat" "../RANS/R-008/R-008.4_Case1_Langlois_Dragon_SAnegRQCR_ANSA/008_case1_gridconvergence_FM.dat" "../RANS/R-001/R-001.3_Case1_Liu_FUN3D_SA-neg-R-QCR2000_1.R.01grid/R-001.3_case1_gridconvergence_FM.dat" "../RANS/R-001/R-001.2_Case1_Liu_FUN3D_SA-neg-R-QCR2000_1.R.03grid/R-001.2_case1_gridconvergence_FM.dat" "../RANS/R-001/R-001.1_Case1_Liu_FUN3D_SA-neg_1.R.01grid/R-001.1_case1_gridconvergence_FM.dat" "../RANS/R-006/R-006.1_Case1_Hanke_SimcenterSTAR-CCM+_SST_QCR_a1eq1_BESTPRACTICE/R-006.1_case1_gridconvergence_FM.dat" "../RANS/R-006/R-006.2_Case1_Hanke_SimcenterSTAR-CCM+_SST_QCR_a1eq1_CommitteeGrid/R-006.2_case1_gridconvergence_FM.dat" "../RANS/R-006/R-006.3_Case1_Hanke_SimcenterSTAR-CCM+_SA-QCR2000-R/R-006.3_case1_gridconvergence_FM.dat" "../RANS/R-006/R-006.4_Case1_Hanke_SimcenterSTAR-CCM+_SA-R/R-006.4_case1_gridconvergence_FM.dat" "../RANS/R-006/R-006.5_Case1_Hanke_SimcenterSTAR-CCM+_SA-QCR2000-R_CommitteeGrid/R-006.5_case1_gridconvergence_FM.dat" "../RANS/R-007/R-007_Case1_Balakrishnan_HiFUN_Standard-SA-noft2-1_BESTPRACTICE/R-007_case1_gridconvergence_FM.dat" "../RANS/R-009/R-009.1_Case1_Yasuda_Cflow_SA-neg-QCR200-R-Crot1_MeshSeries1.R.01-1_BESTPRACTICE/R-009.1_case1_gridconvergence_FM.dat" "../RANS/R-009/R-009.2_Case1_Yasuda_Cflow_SA-neg-QCR200-R-Crot1_Cflow.05/R-009.2_case1_gridconvergence_FM.dat" "../RANS/R-013/R-013.4_Case1_Laflin_FUN3D_SA-neg_Mesh-Series-1.R.05/R-013_case1_gridconvergence_FM.dat" "../RANS/R-013/R-013.1_Case1_Laflin_FUN3D_SA-neg-QCR2000-Crot1_Mesh-Series-1.R.01/R-013_case1_gridconvergence_FM.dat" "../RANS/R-013/R-013.2_Case1_Laflin_FUN3D_SA-neg-QCR2000-Crot1_Mesh-Series-1.R.05/R-013_case1_gridconvergence_FM.dat" "../RANS/R-013/R-013.3_Case1_Laflin_FUN3D_SA-neg_Mesh-Series-1.R.01/R-013_case1_gridconvergence_FM.dat" "../RANS/R-014/R-014.1_Case1_Darbyshire_zCFD_RANS-SSTV-2003_BESTPRACTICE/R-014_case1_gridconvergence_FM.dat" "../RANS/R-014/R-014.2_Case1_Darbyshire_zCFD_RANS-SANEG_QCR2000_R/R-014_case1_gridconvergence_FM.dat" "../RANS/R-015/R-015.4_Case1_Murayama_TAS_SA_AI.1.R.04_v3/R-015.4_case1_gridconvergence_FM.dat" "../RANS/R-015/R-015.1_Case1_Murayama_TAS_SA-noft2-R_Crot1_PW.1.R.01_v3/R-015.1_case1_gridconvergence_FM.dat" "../RANS/R-015/R-015.2_Case1_Murayama_TAS_SA_PW.1.R.01_v3/R-015.2_case1_gridconvergence_FM.dat" "../RANS/R-015/R-015.3_Case1_Murayama_TAS_SA_HM.1.R.05_v3/R-015.3_case1_gridconvergence_FM.dat" "../RANS/R-005/R-005.2_Case1_Rausa_SU2_saneg-qcr-R_Roe2ndOrderColdStart/R-005.2_case1_gridconvergence_FM.dat" "../RANS/R-005/R-005.1_Case1_Rausa_SU2_saneg-qcr-R_Roe2ndOrderHotStart/R-005.1_case1_gridconvergence_FM.dat" "../RANS/R-002/R-002.3_Case1_Ahrabi_FElight_SA-neg_Grid-1R05/R-002.3_case1_gridconvergence_FM.dat" "../RANS/R-002/R-002.1_Case1_Ahrabi_FElight_SA-neg_Grid-1R01/R-002.1_case1_gridconvergence_FM.dat" "../RANS/R-003/R-003_Case1_Hunter_USM3D-ME/R-003.1_Case1_Hunter_USM3D-ME_SA-neg/R-003.1_case1_gridconvergence_FM.dat" "../RANS/R-003/R-003_Case1_Hunter_USM3D-ME/R-003.3_Case1_Hunter_USM3D-ME_SA-neg/R-003.3_case1_gridconvergence_FM.dat" "../RANS/R-003/R-003_Case1_Hunter_USM3D-ME/R-003.5_Case1_Hunter_USM3D-ME_SA-neg/R-003.5_case1_gridconvergence_FM.dat" "../RANS/R-003/R-003_Case1_Hunter_USM3D-ME/R-003.2_Case1_Hunter_USM3D-ME_SA-neg-qcr2000-r/R-003.2_case1_gridconvergence_FM.dat" "../RANS/R-003/R-003_Case1_Hunter_USM3D-ME/R-003.4_Case1_Hunter_USM3D-ME_SA-neg-qcr2000-r/R-003.4_case1_gridconvergence_FM.dat" "../RANS/R-004/R-004.3_Case1_Sereez_Fluent_IncompressibleSA/R-004.3_case1_gridconvergence_FM.dat" "../RANS/R-004/R-004.1_Case1_Sereez_OpenFOAM_IncompressibleSA/R-004.1_case1_gridconvergence_FM.dat" "../RANS/R-004/R-004.2_Case1_Sereez_OpenFOAM_CompressibleSA/R-004.2_case1_gridconvergence_FM.dat" "../RANS/R-017/R-017.4_Case1_Zore_Fluent_POINTWISE-1.R.01_SA-QCR2000/R-017_case1_gridconvergence_FM.dat" "../RANS/R-017/R-017.3_Case1_Zore_Fluent_ICEMCFD-1.R.04_WJ-BSL-EARSM/R-017_case1_gridconvergence_FM.dat" "../RANS/R-017/R-017.2_Case1_Zore_Fluent_ICEMCFD-1.R.04_SST2003-QCR2000/R-017_case1_gridconvergence_FM.dat" "../RANS/R-017/R-017.1_Case1_Zore_Fluent_ICEMCFD-1.R.04_SA-QCR2000_BESTPRACTICE/R-017_case1_gridconvergence_FM.dat" "../RANS/R-010/R-010.2_Case1_Robles_kw98_Pointwise-MixedElementUnstructured/R-010.2_case1_gridconvergence_FM.dat" "../RANS/R-010/R-010.1_Case1_Robles_SA_Pointwise-MixedElementUnstructured/R-010.1_case1_gridconvergence_FM.dat" "../RANS/R-019/R-019_Case1_LeGouez_SYNAPSIS_3GQ2k3RANS_BESTPRACTICE/R-019_case1_gridconvergence_FM.dat" "../RANS/R-018/R-018_Case1_Lofthouse_Kestrel_SAQCR/R-018_case1_gridconvergence_FM.dat" "../RANS/R-011/R-011_Case1_Renaud_elsA_SA+QCR2000+R_BESTPRACTICE/R-011_case1_gridconvergence_FM.dat" "../RANS/R-016/R-016.2_Case1_Ciloni_CFD++_SA______________steadystate_pitchsweep_warmstart_with_1.R.01_meshes/R-016.2_case1_gridconvergence_FM.dat" "../RANS/R-016/R-016.1_Case1_Ciloni_CFD++_SA-QCR(2013)-RC_steadystate_pitchsweep_warmstart_with_1.R.01_meshes_BESTPRACTICE/R-016.1_case1_gridconvergence_FM.dat" "../ADAPT/W-001/W-001_Case1_Jansson_AdaptiveEuler_submission02/W-001_case1_gridconvergence_FM.dat" "../ADAPT/A-003/A-003.1_notofficiallysubmitted_SAneg/A-003.1_case1_gridconvergence_FM.dat" "../ADAPT/A-003/A-003.2_notofficiallysubmitted_SAneg-QCR-R/A-003.2_case1_gridconvergence_FM.dat" "../ADAPT/A-002/A-002_Case1_Sahin_HEMLAB+pyAMG_SA-neg-noft2_v1/A-002_case1_gridconvergence_FM.dat" "../Prelim/A-004/A-004_case1_gridconvergence_FM_SA.dat" "../Prelim/A-004/A-004_case1_gridconvergence_FM_SA-R-QCR.dat"'
 $!VarSet |LFDSVL1| = '"N" "CL" "CD" "CM" "DT" "TSTART" "TAVG" "CLp" "CLv" "CDp" "CDv" "CMp" "CMv" "d01" "d03" "d04" "d05" "d07" "d09" "d10" "d11" "d12" "d14" "d15" "d16" "d17" "d18" "d19" "d20" "d21" "d22" "d23"'
 $!SetStyleBase Factory
 $!GlobalPaper 
@@ -68,7 +68,7 @@ $!FrameName  = 'Frame 001'
 $!GlobalTime 
   SolutionTime = 0
 $!DeleteLineMaps 
-$!ActiveLineMaps  =  [8,14,17,23,29-33,38,44,48,51,53]
+$!ActiveLineMaps  =  [8,14,17,23,29-33,38,44,48,51,53-54]
 $!GlobalLinePlot 
   DataLabels
     {
@@ -1625,6 +1625,70 @@ $!LineMap  [53]
       GeomShape = Grad
       }
     Color = Custom3
+    FillColor = Custom3
+    Size = 1.5
+    }
+  BarCharts
+    {
+    Color = Custom3
+    FillColor = Custom3
+    }
+  ErrorBars
+    {
+    Color = Custom3
+    }
+$!LineMap  [54]
+  Name = '&ZN&'
+  Assign
+    {
+    Zone = 54
+    XAxisVar = 33
+    YAxisVar = 3
+    }
+  Lines
+    {
+    Color = Red
+    LineThickness = 0.2
+    }
+  Symbols
+    {
+    SymbolShape
+      {
+      GeomShape = RTri
+      }
+    Color = Red
+    FillColor = Custom3
+    Size = 1.5
+    }
+  BarCharts
+    {
+    Color = Custom3
+    FillColor = Custom3
+    }
+  ErrorBars
+    {
+    Color = Custom3
+    }
+$!LineMap  [55]
+  Name = '&ZN&'
+  Assign
+    {
+    Zone = 55
+    XAxisVar = 33
+    YAxisVar = 3
+    }
+  Lines
+    {
+    Color = Purple
+    LineThickness = 0.2
+    }
+  Symbols
+    {
+    SymbolShape
+      {
+      GeomShape = LTri
+      }
+    Color = Purple
     FillColor = Custom3
     Size = 1.5
     }
