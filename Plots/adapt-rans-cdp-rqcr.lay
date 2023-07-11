@@ -1714,7 +1714,7 @@ $!XYLineAxis
   YDetail 1
     {
     RangeMin = 0
-    RangeMax = 0.2000000000000000111
+    RangeMax = 0.14999999999999999445
     GRSpacing = 0.05
     }
 $!LinePlotLayers 
